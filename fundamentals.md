@@ -31,3 +31,5 @@ A `Service Mesh` is an extra layer of software you deploy alongside your cluster
 - In the `Proxy` is where the `Mesh Logic` can be implemented.
 - All the `Proxies` in `Istio` are called `Data Plane` and the `Pods` in the `istio-system` *Namespace* are caled `Control Plane`.
 - The `Control Plane` is composed of some `Pods`, `Istiod` and `Kiali UI`, the `Proxies` communicate with the `istiod` *Pod* for the `Telemetry`.
+
+
